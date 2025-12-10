@@ -1,8 +1,8 @@
-package dao;
+package member;
 
 import java.sql.*;
 
-import model.MemberDTO;
+import member.MemberDTO;
 
 public class MemberDAO {
     private Connection conn;

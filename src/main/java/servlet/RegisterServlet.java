@@ -2,13 +2,13 @@ package servlet;
 
 import java.io.IOException;
 
-import dao.MemberDAO;
+import member.MemberDAO;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import model.MemberDTO;
+import member.MemberDTO;
 
 @WebServlet("/Register.do")
 public class RegisterServlet extends HttpServlet {

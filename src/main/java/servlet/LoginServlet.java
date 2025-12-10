@@ -1,14 +1,14 @@
 package servlet;
 
 import java.io.IOException;
-import dao.MemberDAO;
+import member.MemberDAO;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import model.MemberDTO;
+import member.MemberDTO;
 
 @WebServlet("/login.do")
 public class LoginServlet extends HttpServlet {
