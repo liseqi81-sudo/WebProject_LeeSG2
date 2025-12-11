@@ -55,7 +55,7 @@
         <div id="collapseBoard" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">게시판 소제목</h6>
-                <a class="collapse-item" href="freeboard.jsp">자유게시판</a>
+                <a class="collapse-item" href="freeboard_list.do">자유게시판</a>
                 <a class="collapse-item" href="qna.jsp">질문과답변</a>
                 <a class="collapse-item" href="library.jsp">자료실</a>
             </div>

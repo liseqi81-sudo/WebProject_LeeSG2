@@ -43,9 +43,9 @@ public class FrontController extends HttpServlet {
     // 자유게시판 목록 처리
     private void listFunc(HttpServletRequest req) {
         BoardDAO dao = new BoardDAO();
-        List<BoardDTO> list = dao.selectList();  // DB에서 목록 조회
+        List<BoardDTO> list = dao.selectList(null);  // DB에서 목록 조회
         req.setAttribute("list", list);
-        req.setAttribute("viewPage", "/freeboard.jsp");  // 표시할 JSP
+        req.setAttribute("viewPage", "/freeboardlist.jsp");  // 표시할 JSP
     }
 
     // 자유게시판 글쓰기 처리 (폼 제출)

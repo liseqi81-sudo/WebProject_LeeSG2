@@ -34,7 +34,7 @@
 
                     <div class="card shadow mb-4">
                         <div class="card-body">
-                            <form method="post" action="<%=req.getContextPath()%>/freeboard/write.do">
+                            <form method="post" action="<%=req.getContextPath()%>/freeboard_write.do">
                                 <div class="form-group">
                                     <label>제목</label>
                                     <input type="text" name="title" class="form-control">
@@ -64,7 +64,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span>Copyright &copy; Your Website 2025</span>
                     </div>
                 </div>
             </footer>
