@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ page import="model.MemberDTO" %>
+<%@ page import="member.MemberDTO" %>
 <%@ page session="true" %>
 <%
     // 세션에서 로그인 정보 가져오기

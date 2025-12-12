@@ -41,7 +41,7 @@
     <h1 class="h4 text-gray-900 mb-4">다시 만나서 반가워요!</h1>
  </div>
 	
-	<span style="font-size:1.5em; color:red;">${ errorMsg }</span>
+	<span style="font-size:1.2em; color:red;">${ errorMsg }</span>
    <!-- 로그인 폼 -->
    <form class="user" action="login.do" method="post"> <!-- ✔ action과 method 필수 -->
        <div class="form-group">
